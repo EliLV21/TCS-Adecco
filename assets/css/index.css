@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Anton';
+  src: url('../fonts/Anton-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+@keyframes color {
+  0% {
+    color: #d90429;
+  }
+  25% {
+    color: #941b0c;
+  }
+  50% {
+    color: #621708;
+  }
+  75% {
+      color: #941b0c;
+  }
+  100% {
+    color: #d90429;
+  }
+}
+/* GENERAL */
+body{
+    background-color: #edf2f4;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e1d21;
+    text-align: justify;
+}
+.title-content{
+    color: #6a040f;
+}
+/* NAV STYLES */
+body nav {
+    padding: 25px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted rgba(108, 103, 116, 0.4);
+}
+.title-page{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    position: relative;
+    top: 12px;
+}
+div>.glyphicon-fire {
+    color: #b5838d;
+}
+.list-inline>li {
+    text-transform: uppercase;
+    font-family: 'Montserrat-Medium', sans-serif;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.list-inline>li>a{
+    font-size: 14px;
+    color: #0e1d21;
+}
+.list-inline>li>a>.glyphicon-asterisk {
+    animation: color 2s linear infinite;
+}
+.suscribe a{
+    background-color: #1955a5;
+    color: #f1faee !important;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+/* TITLE CONTENT STYLES */
+.title-content{
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+.title-content .icons{
+    padding-top: 20px;
+}
+.title-content .face-icon{
+    color: #2D88FF;
+}
+.title-content .twit-icon{
+    margin-top: 2px;
+    color: rgba(29,161,242,1);
+}
+/* CONTENT STYLES */
+.content div{
+    border-bottom: 1px dotted rgba(108, 103, 116, 0.4);
+}
+.content .first-content{
+    margin-top: 15px;
+}
+.content .img-content{
+    float: left;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.strong{
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+/* CONTENT BUTTONS */
+.content-buttons{
+    clear: both;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.content-buttons .btn {
+    width: 22%;
+    padding: 15px 0;
+    background-color: #e63946;
+    color: #f1faee;
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+/* CONTENT MAP */
+#map {
+  height: 400px;
+  width: 100%;
+  margin: 2%;
+}

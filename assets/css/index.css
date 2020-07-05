@@ -37,7 +37,7 @@
 }
 /* GENERAL */
 body{
-    background-color: #edf2f4;
+    background-color: #ced4da;
     font-family: 'Montserrat', sans-serif;
     color: #0e1d21;
     text-align: justify;
@@ -45,8 +45,14 @@ body{
 .title-content{
     color: #6a040f;
 }
-.cont-border{
+.cont-border-bottom{
     border-bottom: 1px dotted rgba(108, 103, 116, 0.4);
+}
+.cont-border-top{
+    border-top: 1px dotted rgba(108, 103, 116, 0.4);
+}
+.list-inline{
+    margin: 10px 0;
 }
 /* NAV STYLES */
 body nav {
@@ -55,7 +61,6 @@ body nav {
 }
 .title-page{
     font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
     font-size: 60px;
     position: relative;
     top: 12px;
@@ -63,18 +68,17 @@ body nav {
 div>.glyphicon-fire {
     color: #b5838d;
 }
-.list-inline>li {
-    text-transform: uppercase;
+.list-inline>li>a>.glyphicon-asterisk {
+    animation: color 2s linear infinite;
+}
+.list-nav li {
     font-family: 'Montserrat-Medium', sans-serif;
     padding-right: 25px;
     padding-left: 25px;
 }
-.list-inline>li>a{
+.list-nav li a{
     font-size: 14px;
     color: #0e1d21;
-}
-.list-inline>li>a>.glyphicon-asterisk {
-    animation: color 2s linear infinite;
 }
 .suscribe a{
     background-color: #1955a5;
@@ -82,7 +86,7 @@ div>.glyphicon-fire {
     padding: 4px 10px;
     border-radius: 4px;
 }
-/* TITLE CONTENT STYLES */
+/*CONTENT TITLE STYLES */
 .title-content{
     font-family: 'Montserrat-Medium', sans-serif;
 }
@@ -113,7 +117,6 @@ div>.glyphicon-fire {
 .content-buttons{
     clear: both;
     padding-top: 20px;
-    text-transform: uppercase;
 }
 .content-buttons .btn {
     width: 22%;
@@ -130,16 +133,24 @@ div>.glyphicon-fire {
 }
 /* CONTENT OTHER */
 .cont-other{
+    margin: 50px auto;
+}
+.cont-other-news{
+    background-size: cover;
+    background-position: center;
     width: 300px;
     height: 300px;
-    margin: 50px auto;
-    background-position: center;
-    background-size: cover;
+}
+.cont-other-publish{
+    background-attachment: fixed;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
 }
 .cont-popular{
     padding-top: 40px;
 }
-.cont-popular .aliance{
+.cont-popular .alliance{
     width: 25%;
     display: block;
   margin-left: auto;
@@ -148,7 +159,6 @@ div>.glyphicon-fire {
 .title-other{
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 24px;
-    text-transform: uppercase;
     
 }
 .title-other:after{
@@ -163,14 +173,24 @@ div>.glyphicon-fire {
     font-size: 50px;
     color: #1d68a4;
 }
-.popular-note{
+.data-note{
+    text-align: inherit;
     font-family: 'Montserrat', sans-serif;
     color: #0e1d21;
     font-size: 16px;
     display: block;
 }
+/* CONTENT AUTHOR OPINION */
+.cont-author{
+    width: 22.5%;
+    height: 150px;
+    margin: 13px;
+    padding: 25px 0;
+    float: left;
+}
 .popular-author{
-    font-size: 13px;
+    font-style: italic;
+    font-size: 12.5px;
     color: #1d68a4;
 }
 .popular-author img {
@@ -183,6 +203,72 @@ div>.glyphicon-fire {
     margin-right: 15px;
 }
 .time-post{
-    color: #0e1d21;
-    font-size: 14px;
+    color: rgba(108, 117, 125, 0.8);
+    font-size: 13px;
+}
+/* CONTENT LAST NEWS */
+.cont-last-new::before{
+    background: url('../img/clock.svg');
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 6px;
+}
+.cont-last-new{
+    padding-left: 20px;
+    border-left: 1px solid #6d6875;
+}
+.content-view-more .btn{
+    background-color: #1955a5;
+    color: #f1faee !important;
+    margin: 40px 0 100px 0;
+}
+/* FOOTER */
+footer{
+    background: #222;
+    color: #f1faee !important
+}
+footer .cont-footer{
+    height: 120px;
+}
+footer .title-page{
+    margin: 10px 0;
+}
+.list-footer{
+    margin-bottom: 0;
+}
+.list-footer li{
+    padding: 15px;
+}
+.list-website{
+    margin-top: 0;
+}
+.list-website li{
+    margin: 13px 0 13px 13px;
+    padding-right: 13px;
+    border-right: .5px solid #f1faee;
+}
+.list-website li:last-child{
+    border: none;
+}
+.list-website li a{
+    color: #f1faee;
+}
+.cont-copy-text{
+    height: 100%;
+    padding-top: 1%;
+}
+.copy-text{
+    font-size: 11.3px;
+}
+.copy-text a{
+    color: #f1faee;
+    text-decoration: underline;
+     display: table-cell;
+    vertical-align: middle;
+}
+.brand-alliance img{
+    height: 45px;
 }

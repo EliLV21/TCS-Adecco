@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/mobile.css" />
   <script src="https://kit.fontawesome.com/e5e6978f08.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="container">
-    <nav class="cont-border-bottom">
+  <div class="container-fluid">
+    <nav>
       <div class="row">
         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 title-page text-uppercase">
           <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
@@ -44,6 +45,8 @@
         </ul>
       </div>
     </nav>
+  </div>
+  <div class="container cont-border-top">
     <div class="row title-content">
       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
         <h1>Coronavirus, últimas noticias</h1>
@@ -149,7 +152,7 @@
           </div>
           <div class="row">
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 position-rank">1</div>
-            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
               <a href="#" class="data-note" title="Segundo semestre, ¿oportunidad en la BMV?">Segundo semestre,
                 ¿oportunidad en la BMV?</a>
               <a href="#" class="popular-author" title="Por José Antonio Rivera">Por José Antonio Rivera</a>
@@ -211,10 +214,9 @@
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <p class="title-other text-uppercase text-center">Últimas noticias</p>
           </div>
-
         </div>
         <div class="row">
-          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 content-last-news">
             <div class="cont-last-new">
               <span class="time-post"><em>Hace 7 horas</em></span>
               <a href="#" class="data-note" title="Segundo semestre, ¿oportunidad en la BMV?">Segundo semestre,
@@ -236,7 +238,7 @@
         <div class="cont-other cont-other-publish" style="background-image: url('assets/img/publish/laboratoria3.jpg');"></div>
       </div>
     </div>
-    <div class="row content-view-more">
+    <div class="row content-view-more" style="display: none;">
       <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center">
         <button type="button" class="btn btn-lg btn-default btn-block text-uppercase">Ver más noticias de Coronavirus</button>
       </div>
@@ -278,7 +280,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
           <div class="row">
-            <ul class=" list-inline list-footer text-right">
+            <ul class="brand-list list-inline list-footer text-right">
               <li class="brand-alliance"><a href="#"><img src="assets/img/alliance/tata.png" alt="Tata Consultancy Services"></a></li>
               <li class="brand-alliance"><a href="#"><img class="Laboratoria" src="assets/img/alliance/laboratoria.png" alt="Laboratoria"></a></li>
               <li class="brand-alliance"><a href="#"><img class="Adecco" src="assets/img/alliance/adecco.png"
@@ -296,9 +298,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
     integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
     crossorigin="anonymous"></script>
-  <!-- <script src="assets/js/index.js"></script>
+  <script src="assets/js/index.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9dE7eUmmRMlzilaT93S4wZqjtmu5sizg">
-  </script> -->
+  </script>
 </body>
 
 </html>

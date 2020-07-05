@@ -1,0 +1,134 @@
+@media (max-width: 344px) {
+    body{
+        font-size: 15px;
+    }
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    background: #222;
+    color: #f1faee !important;
+  }
+  .title-page {
+    font-size: 41px;
+    margin-bottom: 15px;
+  }
+  .list-nav {
+    display: none;
+  }
+  nav h3 {
+    margin-top: 10px;
+  }
+  .icons {
+    display: none;
+  }
+  .img-content {
+    width: 254px !important;
+    height: 254px !important;
+  }
+  .content-buttons .btn{
+      width: 100%;
+      margin: 10px 0;
+  }
+  #map{
+      margin: 0;
+  }
+  .cont-other-news {
+      width: 100%;
+  }
+  .cont-other-news {
+    margin: 20px 0;
+}
+.cont-popular{
+    padding-top: 20px;
+    margin-bottom: 35px;
+}
+.cont-author{
+    width: 90%;
+    height: auto;
+    margin: 15px;
+    padding: 0;
+    border: none;
+}
+.cont-author:last-child{
+    border-bottom: 1px dotted rgba(108, 103, 116, 0.4);
+}
+.content-last-news{
+    margin-left: 10px;
+}
+.cont-last-new{
+    padding: 10px;
+}
+.cont-footer{
+    width: 90%;
+    margin: auto;
+}
+.cont-footer .title-page{
+    font-size: 35px;
+}
+.list-footer{
+    text-align: center;
+    font-size: 13px;
+}
+.list-footer li{
+    width: 45%;
+    padding: 10px;
+}
+.list-website li {
+    margin: 5px 0 5px 5px;
+    padding-right: 5px;
+    border: none;
+    font-size: 13px;
+}
+.cont-copy-text{
+    height: auto;
+}
+.copy-text{
+    font-size: 8px;
+}
+.brand-list{
+    width: 100%;
+}
+.brand-list li{
+    width: 33%;
+}
+.brand-list li img{
+    height: 25px;
+}
+
+}
+@media (min-width: 345px) and (max-width: 768px) {
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    background: #222;
+    color: #f1faee !important;
+  }
+  .list-nav {
+    display: none;
+  }
+  .title-page {
+    font-size: 41px;
+  }
+  .icons {
+    display: none;
+  }
+  .img-content {
+    width: 300px !important;
+    height: 300px !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  ...;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  ...;
+}
+@media (min-width: 1200px) {
+  ...;
+}

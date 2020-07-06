@@ -247,15 +247,15 @@
   }
   .arrow-menu::before {
     border-width: 0 45px 45px 45px;
-    right: 315px;
-    top: 156px;
+    right: 144px;
+    top: 142px;
   }
      .list-menu li {
     padding: 15px 5px 0;
     word-wrap: break-all;
   }
   .menu-bar {
-    top: 193px;
+    top: 170px;
     right: 0;
   }
   .cont-author {

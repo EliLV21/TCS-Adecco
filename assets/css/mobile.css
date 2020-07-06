@@ -159,7 +159,7 @@
     right: 135px;
     top: 135px;
   }
-  .list-menu li{
+  .list-menu li {
     padding: 15px 5px 0;
     word-wrap: break-all;
   }
@@ -239,23 +239,30 @@
     height: 200px !important;
     margin: 20px 10px 20px 0 !important;
   }
+  .list-footer {
+    text-align: center;
+  }
   .list-footer li {
     width: auto;
   }
+  .brand-list li img {
+    width: 80px !important;
+  }
+
   .cont-copy-text {
     width: 100%;
     margin: 20px auto;
   }
 }
 @media (min-width: 651px) and (max-width: 680px) and (orientation: landscape) {
-    .arrow-menu::before {
+  .arrow-menu::before {
     right: 288px;
-}
+  }
 }
 @media (min-width: 681px) and (max-width: 900px) and (orientation: landscape) {
-    .arrow-menu::before {
+  .arrow-menu::before {
     right: 62px !important;
-}
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .arrow-menu::before {

@@ -11,6 +11,34 @@
     background: #222;
     color: #f1faee !important;
   }
+  .menu-bar {
+    top: 177px;
+    right: 0;
+  }
+  .title-content h1 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #0e1d21;
+    text-align: center;
+  }
+  .title-content h1:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 166px;
+    background: #1d68a4;
+    margin: 0 auto;
+  }
+  .arrow-menu::before {
+    border-width: 0 45px 45px 45px;
+    right: 115px;
+    top: 150px;
+  }
+  .list-menu li {
+    width: 100%;
+    padding: 15px 20px 0;
+  }
   .title-page {
     font-size: 41px;
     margin-bottom: 15px;
@@ -126,6 +154,15 @@
     background: #1d68a4;
     margin: 0 auto;
   }
+  .arrow-menu::before {
+    border-width: 0 45px 45px 45px;
+    right: 143px;
+    top: 135px;
+  }
+  .menu-bar {
+    top: 168px;
+    right: 0;
+  }
   .img-content {
     width: 100% !important;
     height: 343px !important;
@@ -189,6 +226,12 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .arrow-menu::before{
+        right: 57px;
+    }
+    .menu-bar{
+        right: 0;
+    }
   .content-buttons .btn {
     width: 45%;
     margin: 7px 7px;
@@ -219,18 +262,17 @@
     width: 31%;
     margin: 7px 7px;
   }
-  .cont-author{
+  .cont-author {
     width: 21.5%;
     height: 170px;
   }
-  .title-page{
+  .title-page {
     font-size: 57px;
   }
-  .list-footer li{
-      padding:  10px;
+  .list-footer li {
+    padding: 10px;
   }
-  .copy-text{
-      font-size: 14px;
+  .copy-text {
+    font-size: 14px;
   }
-
 }

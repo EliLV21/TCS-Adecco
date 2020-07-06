@@ -1,18 +1,19 @@
-$(document).ready(cargarPagina);
+$(document).ready(loadPage);
 
-function cargarPagina() {
-    obtenerUbicacionActual();
+function loadPage() {
+    currentLocation();
+    showMenu();
 }
 
-function obtenerUbicacionActual() {
+function currentLocation() {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(mostrarPosicionActual);
+        navigator.geolocation.getCurrentPosition(showCurrentLocation);
     } else {
         alert("Geolocalización no es soportado en tu navegador");
     }
 };
 
-function mostrarPosicionActual(posicion) {
+function showCurrentLocation(posicion) {
     var latitud = posicion.coords.latitude;
     var longitud = posicion.coords.longitude;
 
@@ -21,11 +22,10 @@ function mostrarPosicionActual(posicion) {
         lng: longitud
     };
 
-    mostrarMapa(coordenadas);
+    showMap(coordenadas);
 };
 
-// @coordenadas: { lat: <number>, lng: <number> }
-function mostrarMapa(coordenadas) {
+function showMap(coordenadas) {
     var map = new google.maps.Map($('#map')[0], {
         zoom: 17,
         center: coordenadas
@@ -36,3 +36,6 @@ function mostrarMapa(coordenadas) {
     });
 };
 
+function showMenu(){
+    $('#menu-nav').toggle();
+}

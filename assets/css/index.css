@@ -129,7 +129,6 @@ div>.glyphicon-fire {
 #map {
   height: 400px;
   width: 100%;
-  margin: 2%;
 }
 /* CONTENT OTHER */
 .cont-other{
@@ -159,7 +158,6 @@ div>.glyphicon-fire {
 .title-other{
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 24px;
-    
 }
 .title-other:after{
     content: '';
@@ -257,7 +255,7 @@ footer .title-page{
     color: #f1faee;
 }
 .cont-copy-text{
-    height: 100%;
+    height: auto;
     padding-top: 1%;
 }
 .copy-text{

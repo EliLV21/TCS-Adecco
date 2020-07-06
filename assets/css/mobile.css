@@ -1,7 +1,7 @@
 @media (max-width: 344px) {
-    body{
-        font-size: 15px;
-    }
+  body {
+    font-size: 15px;
+  }
   .container-fluid {
     margin: 0;
     padding: 0;
@@ -28,78 +28,71 @@
     width: 254px !important;
     height: 254px !important;
   }
-  .content-buttons .btn{
-      width: 100%;
-      margin: 10px 0;
-  }
-  #map{
-      margin: 0;
+  .content-buttons .btn {
+    width: 100%;
+    margin: 10px 0;
   }
   .cont-other-news {
-      width: 100%;
+    width: 100%;
   }
   .cont-other-news {
     margin: 20px 0;
-}
-.cont-popular{
+  }
+  .cont-popular {
     padding-top: 20px;
     margin-bottom: 35px;
-}
-.cont-author{
+  }
+  .cont-author {
     width: 90%;
     height: auto;
     margin: 15px;
     padding: 0;
     border: none;
-}
-.cont-author:last-child{
+  }
+  .cont-author:last-child {
     border-bottom: 1px dotted rgba(108, 103, 116, 0.4);
-}
-.content-last-news{
+  }
+  .content-last-news {
     margin-left: 10px;
-}
-.cont-last-new{
+  }
+  .cont-last-new {
     padding: 10px;
-}
-.cont-footer{
+  }
+  .cont-footer {
     width: 90%;
     margin: auto;
-}
-.cont-footer .title-page{
+  }
+  .cont-footer .title-page {
     font-size: 35px;
-}
-.list-footer{
+  }
+  .list-footer {
     text-align: center;
     font-size: 13px;
-}
-.list-footer li{
+  }
+  .list-footer li {
     width: 45%;
     padding: 10px;
-}
-.list-website li {
+  }
+  .list-website li {
     margin: 5px 0 5px 5px;
     padding-right: 5px;
     border: none;
     font-size: 13px;
-}
-.cont-copy-text{
-    height: auto;
-}
-.copy-text{
+  }
+  .copy-text {
     font-size: 8px;
-}
-.brand-list{
+  }
+  .brand-list {
     width: 100%;
-}
-.brand-list li{
+  }
+  .brand-list li {
     width: 33%;
-}
-.brand-list li img{
+  }
+  .brand-list li img {
     height: 25px;
+  }
 }
-
-}
-@media (min-width: 345px) and (max-width: 768px) {
+@media (min-width: 345px) and (max-width: 767px) {
   .container-fluid {
     margin: 0;
     padding: 0;
@@ -118,17 +111,126 @@
   .icons {
     display: none;
   }
+  .title-content h1 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #0e1d21;
+    text-align: center;
+  }
+  .title-content h1:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 166px;
+    background: #1d68a4;
+    margin: 0 auto;
+  }
   .img-content {
-    width: 300px !important;
-    height: 300px !important;
+    width: 100% !important;
+    height: 343px !important;
+    margin: 20px 0 !important;
+  }
+  .content-buttons .btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+  #map {
+    width: 100%;
+  }
+  .cont-author {
+    width: 90%;
+    height: auto;
+    border: none;
+    padding: 5px 0;
+  }
+  .cont-author:last-child {
+    border-bottom: 1px dotted rgba(108, 103, 116, 0.4);
+  }
+  .cont-other {
+    margin: 30px auto;
+  }
+  footer .cont-footer {
+    width: 100%;
+    margin: 0;
+  }
+  .cont-footer .title-page {
+    text-align: center;
+    font-size: 45px;
+  }
+  .list-footer {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+  }
+  .list-footer li {
+    width: 30%;
+    padding: 10px;
+  }
+  .list-website {
+    text-align: center;
+  }
+  .list-website li {
+    margin: 7px 0 7px 7px;
+    padding-right: 7px;
+  }
+  .cont-copy-text {
+    width: 90%;
+    padding-top: 1%;
+    margin: auto;
+  }
+  .brand-list li {
+    width: 32%;
+    text-align: center;
+  }
+  .brand-list li img {
+    width: 50%;
+    height: auto;
   }
 }
-@media (min-width: 769px) and (max-width: 991px) {
-  ...;
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-buttons .btn {
+    width: 45%;
+    margin: 7px 7px;
+  }
+  .cont-author {
+    width: 56%;
+    height: auto;
+    margin: 15px;
+    padding: 0;
+    border: none;
+  }
+  .cont-other-publish {
+    background-position: center;
+  }
+  .copy-text {
+    font-size: 13px;
+  }
+  .brand-list {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .brand-alliance img {
+    height: 55px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  ...;
-}
-@media (min-width: 1200px) {
-  ...;
+  .content-buttons .btn {
+    width: 31%;
+    margin: 7px 7px;
+  }
+  .cont-author{
+    width: 21.5%;
+    height: 170px;
+  }
+  .title-page{
+    font-size: 57px;
+  }
+  .list-footer li{
+      padding:  10px;
+  }
+  .copy-text{
+      font-size: 14px;
+  }
+
 }

@@ -156,8 +156,12 @@
   }
   .arrow-menu::before {
     border-width: 0 45px 45px 45px;
-    right: 143px;
+    right: 135px;
     top: 135px;
+  }
+  .list-menu li{
+    padding: 15px 5px 0;
+    word-wrap: break-all;
   }
   .menu-bar {
     top: 168px;

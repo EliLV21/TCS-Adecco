@@ -323,3 +323,8 @@
     margin-bottom: 25px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
+  .arrow-menu::before {
+    right: 140px;
+  }
+}
